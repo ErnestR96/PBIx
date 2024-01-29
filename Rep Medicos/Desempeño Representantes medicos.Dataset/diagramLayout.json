@@ -1,0 +1,119 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 28.571428298950195
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 917.01707317073169,
+            "y": 0
+          },
+          "nodeIndex": "DAX Medidas",
+          "size": {
+            "height": 118,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 43.297560975609784,
+            "y": 62.195121951219477
+          },
+          "nodeIndex": "d_Agentes",
+          "size": {
+            "height": 293.14634146341473,
+            "width": 242
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 631.01707317073169,
+            "y": 47.5609756097561
+          },
+          "nodeIndex": "d_Calendario",
+          "size": {
+            "height": 305,
+            "width": 246
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1195.0170731707317,
+            "y": 149.65853658536585
+          },
+          "nodeIndex": "d_Días",
+          "size": {
+            "height": 154,
+            "width": 238
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 349.01707317073169,
+            "y": 57.317073170731717
+          },
+          "nodeIndex": "d_Empleados",
+          "size": {
+            "height": 276,
+            "width": 242
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 917.01707317073169,
+            "y": 158
+          },
+          "nodeIndex": "d_Satisfacción",
+          "size": {
+            "height": 179,
+            "width": 238
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 358.92682926829269,
+            "y": 455.53658536585368
+          },
+          "nodeIndex": "f_Tickets",
+          "size": {
+            "height": 297,
+            "width": 242
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1439.719512195122,
+            "y": 288.26829268292681
+          },
+          "nodeIndex": "FotosAgentes",
+          "nodeLineageTag": "f86471c1-f698-4707-af44-ff71f2a8bfa3",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
