@@ -1,0 +1,29 @@
+{
+  "version": "4.0.0",
+  "author": {
+    "name": "MAQ Software",
+    "email": "support@maqsoftware.com"
+  },
+  "resources": [
+    {
+      "resourceId": "rId0",
+      "sourceType": 5,
+      "file": "resources/HorizontalFunnel1449177164235.pbiviz.json"
+    }
+  ],
+  "visual": {
+    "guid": "HorizontalFunnel1449177164235",
+    "name": "HorizontalFunnelByMAQSoftware",
+    "displayName": "Horizontal Funnel By MAQ Software",
+    "version": "4.0.0",
+    "description": "Allows you to visualize customizable primary measure as colored bars.",
+    "supportUrl": "http://bit.ly/maqpbivizfaq",
+    "gitHubUrl": "https://github.com/MAQ-Software-Solutions/HorizontalFunnel",
+    "visualClassName": "HorizontalFunnel"
+  },
+  "metadata": {
+    "pbivizjson": {
+      "resourceId": "rId0"
+    }
+  }
+}
