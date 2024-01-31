@@ -1,0 +1,2092 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Municipal-Delitos-2015-2021_dic2021\",\"Concentrado municipal\",\"Errores en Concentrado municipal\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.1805.0 (23.12)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "concentrado_municipal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "concentrado municipal": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.clave_de_entidad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "Clave de entidad"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "clave de entidad": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.clave_de_municipio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "Clave de municipio"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "clave de municipio": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.delitos_dividido_por_promedio_de_POBLACIÓN": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "delitos dividido por Promedio de POBLACIÓN"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "delitos dividido por promedio de POBLACIÓN": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.delitos_x_mil_hab": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "Delitos x mil hab"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "delitos x mil hab": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "delito x mil hab": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.entidad_federativa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "Entidad federativa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "entidad federativa": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.municipio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "Municipio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "municipio": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.población": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "POBLACIÓN"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "población": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.población1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "Población "
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "población": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "concentrado_municipal.tasa_de_delitos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Concentrado municipal",
+                    "ConceptualProperty": "TASA DE DELITOS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tasa de delitos": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "municipal delitos 2015 2021 dic 2021": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "municipal delito 2015 2021 dic 2021": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "Municipal-Delitos-2015-2021_dic2021": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Año"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.bien_jurídico_afectado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Bien jurídico afectado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "bien jurídico afectado": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.clave_ent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Clave_Ent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "clave ent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Clave_Ent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "ent": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.cve__municipio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Cve. Municipio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cve. municipio": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.delito": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "delitos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "delito": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.entidad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Entidad"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "entidad": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.incidencia_delictiva": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Incidencia delictiva"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "incidencia delictiva": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Incidencia delictiva (no. Delitos)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.mes_num": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "mes_num"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mes num": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "me num": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "mes_num": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "me number": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.modalidad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Modalidad"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "modalidad": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.mun_edo_pais": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "mun_edo_pais"
+                  }
+                },
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mun edo pais": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mun_edo_pais": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "place": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.municipio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Municipio"
+                  }
+                },
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "municipio": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "place": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.subtipo_de_delito": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Subtipo de delito"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "subtipo de delito": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "municipal_delitos_2015_2021_dic_2021.tipo_de_delito": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021",
+                    "ConceptualProperty": "Tipo de delito"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo de delito": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "concentrado_municipal_has_clave_de_entidad": {
+                "Binding": {
+                  "ConceptualEntity": "Concentrado municipal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.clave_de_entidad"
+                      },
+                      "Subject": {
+                        "Role": "concentrado_municipal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal": {
+                    "Target": {
+                      "Entity": "concentrado_municipal"
+                    }
+                  },
+                  "concentrado_municipal.clave_de_entidad": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.clave_de_entidad"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "concentrado_municipal_has_delitos_dividido_por_promedio_de_POBLACIÓN": {
+                "Binding": {
+                  "ConceptualEntity": "Concentrado municipal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.delitos_dividido_por_promedio_de_POBLACIÓN"
+                      },
+                      "Subject": {
+                        "Role": "concentrado_municipal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal": {
+                    "Target": {
+                      "Entity": "concentrado_municipal"
+                    }
+                  },
+                  "concentrado_municipal.delitos_dividido_por_promedio_de_POBLACIÓN": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.delitos_dividido_por_promedio_de_POBLACIÓN"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "concentrado_municipal_has_delitos_x_mil_hab": {
+                "Binding": {
+                  "ConceptualEntity": "Concentrado municipal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.delitos_x_mil_hab"
+                      },
+                      "Subject": {
+                        "Role": "concentrado_municipal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal": {
+                    "Target": {
+                      "Entity": "concentrado_municipal"
+                    }
+                  },
+                  "concentrado_municipal.delitos_x_mil_hab": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.delitos_x_mil_hab"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "concentrado_municipal_has_entidad_federativa": {
+                "Binding": {
+                  "ConceptualEntity": "Concentrado municipal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.entidad_federativa"
+                      },
+                      "Subject": {
+                        "Role": "concentrado_municipal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal": {
+                    "Target": {
+                      "Entity": "concentrado_municipal"
+                    }
+                  },
+                  "concentrado_municipal.entidad_federativa": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.entidad_federativa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "concentrado_municipal_has_municipio": {
+                "Binding": {
+                  "ConceptualEntity": "Concentrado municipal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.municipio"
+                      },
+                      "Subject": {
+                        "Role": "concentrado_municipal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal": {
+                    "Target": {
+                      "Entity": "concentrado_municipal"
+                    }
+                  },
+                  "concentrado_municipal.municipio": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.municipio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "concentrado_municipal_has_población": {
+                "Binding": {
+                  "ConceptualEntity": "Concentrado municipal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.población"
+                      },
+                      "Subject": {
+                        "Role": "concentrado_municipal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal": {
+                    "Target": {
+                      "Entity": "concentrado_municipal"
+                    }
+                  },
+                  "concentrado_municipal.población": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.población"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "concentrado_municipal_has_población1": {
+                "Binding": {
+                  "ConceptualEntity": "Concentrado municipal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.población1"
+                      },
+                      "Subject": {
+                        "Role": "concentrado_municipal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal": {
+                    "Target": {
+                      "Entity": "concentrado_municipal"
+                    }
+                  },
+                  "concentrado_municipal.población1": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.población1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "concentrado_municipal_has_tasa_de_delitos": {
+                "Binding": {
+                  "ConceptualEntity": "Concentrado municipal"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.tasa_de_delitos"
+                      },
+                      "Subject": {
+                        "Role": "concentrado_municipal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal": {
+                    "Target": {
+                      "Entity": "concentrado_municipal"
+                    }
+                  },
+                  "concentrado_municipal.tasa_de_delitos": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.tasa_de_delitos"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.año"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.año": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_bien_jurídico_afectado": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.bien_jurídico_afectado"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.bien_jurídico_afectado": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.bien_jurídico_afectado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_clave_ent": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.clave_ent"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.clave_ent": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.clave_ent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_concentrado_municipal_delitos_dividido_por_promedio_de_POBLACIÓN": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.delitos_dividido_por_promedio_de_POBLACIÓN"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal.delitos_dividido_por_promedio_de_POBLACIÓN": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.delitos_dividido_por_promedio_de_POBLACIÓN"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_concentrado_municipal_tasa_de_delitos": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "concentrado_municipal.tasa_de_delitos"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "concentrado_municipal.tasa_de_delitos": {
+                    "Target": {
+                      "Entity": "concentrado_municipal.tasa_de_delitos"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_cve__municipio": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.cve__municipio"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.cve__municipio": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.cve__municipio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_delito": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.delito"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.delito": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.delito"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_entidad": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.entidad"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.entidad": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.entidad"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_incidencia_delictiva": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.incidencia_delictiva"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.incidencia_delictiva": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.incidencia_delictiva"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.me"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.me": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_mes_num": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.mes_num"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.mes_num": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.mes_num"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_modalidad": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.modalidad"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.modalidad": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.modalidad"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_mun_edo_pais": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.mun_edo_pais"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.mun_edo_pais": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.mun_edo_pais"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_municipio": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.municipio"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.municipio": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.municipio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_subtipo_de_delito": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.subtipo_de_delito"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.subtipo_de_delito": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.subtipo_de_delito"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_has_tipo_de_delito": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.tipo_de_delito"
+                      },
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.tipo_de_delito": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.tipo_de_delito"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_in_mun_edo_pais": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.mun_edo_pais"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.mun_edo_pais": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.mun_edo_pais"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "municipal_delitos_2015_2021_dic_2021.mun_edo_pais"
+                  }
+                },
+                "State": "Generated"
+              },
+              "municipal_delitos_2015_2021_dic_2021_in_municipio": {
+                "Binding": {
+                  "ConceptualEntity": "Municipal-Delitos-2015-2021_dic2021"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021.municipio"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "municipal_delitos_2015_2021_dic_2021"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "municipal_delitos_2015_2021_dic_2021": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021"
+                    }
+                  },
+                  "municipal_delitos_2015_2021_dic_2021.municipio": {
+                    "Target": {
+                      "Entity": "municipal_delitos_2015_2021_dic_2021.municipio"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "municipal_delitos_2015_2021_dic_2021.municipio"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Errores en Concentrado municipal",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "Origen = #\"Concentrado municipal\",",
+          "  #\"Errores de coincidencia detectados\" = let",
+          "    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Origen, Table.ColumnsOfType(Origen, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),",
+          "    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),",
+          "    fieldNames = Record.FieldNames(recordTypeFields),",
+          "    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),",
+          "    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = \"El tipo del valor no coincide con el tipo de la columna.\", Detail = v], fieldTypes{i}})",
+          "in",
+          "    Table.TransformColumns(Origen, pairs),",
+          "  #\"Índice agregado\" = Table.AddIndexColumn(#\"Errores de coincidencia detectados\", \"Número de fila\" ,1),",
+          "  #\"Conservar errores\" = Table.SelectRowsWithErrors(#\"Índice agregado\", {\"Clave de entidad\", \"Entidad federativa\", \"Clave de municipio\", \"Municipio\", \"POBLACIÓN\", \"Población \"}),",
+          "  #\"Columnas reordenadas\" = Table.ReorderColumns(#\"Conservar errores\", {\"Número de fila\", \"Clave de entidad\", \"Entidad federativa\", \"Clave de municipio\", \"Municipio\", \"POBLACIÓN\", \"Población \"}),",
+          "    #\"Filas filtradas\" = Table.SelectRows(#\"Columnas reordenadas\", each [Clave de entidad] <> null and [Clave de entidad] <> \"\")",
+          "in",
+          "  #\"Filas filtradas\""
+        ],
+        "kind": "m",
+        "lineageTag": "1f92e7ee-8e82-405d-8baa-f3359b96c608",
+        "queryGroup": "Errores en las consultas: 26/10/2022 10:27:58 p  m"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "description": "Errores en las consultas cargadas en 26/10/2022 10:27:58 p. m..",
+        "folder": "Errores en las consultas: 26/10/2022 10:27:58 p  m"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "f5a52c8d-f6c8-41de-a0e1-2533ce3e3bb1",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "Clave de municipio",
+        "fromTable": "Concentrado municipal",
+        "toCardinality": "many",
+        "toColumn": "Cve. Municipio",
+        "toTable": "Municipal-Delitos-2015-2021_dic2021"
+      }
+    ],
+    "sourceQueryCulture": "es-MX",
+    "tables": [
+      {
+        "name": "Municipal-Delitos-2015-2021_dic2021",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Clave_Ent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b065e659-1f12-4e72-aa23-fb65ca1939fb",
+            "sourceColumn": "Clave_Ent",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Entidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a04ceb4b-05a1-42a3-a757-f3a5205054fc",
+            "sourceColumn": "Entidad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cve. Municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eb1d760e-8130-47ae-b981-7d4e66cd3147",
+            "sourceColumn": "Cve. Municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "Place",
+            "dataType": "string",
+            "lineageTag": "1ef68e89-b9d6-44ff-a7eb-0aed660abc1d",
+            "sourceColumn": "Municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Bien jurídico afectado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1ff02553-01b2-40e5-9ccb-969e154f9ea2",
+            "sourceColumn": "Bien jurídico afectado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tipo de delito",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7a76031d-27c3-4c2d-acf4-e3bd7dc22b43",
+            "sourceColumn": "Tipo de delito",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Subtipo de delito",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e0320f31-f53b-4896-8521-d49fbfdc2861",
+            "sourceColumn": "Subtipo de delito",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Modalidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "370da314-6b1e-43d7-8bf8-ad8cba1afe87",
+            "sourceColumn": "Modalidad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e734e301-d663-49c7-971e-084bf98a028b",
+            "sourceColumn": "Año",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4d24d948-dd6b-4531-8d80-b3917132c2eb",
+            "sourceColumn": "mes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "delitos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7ed9e062-c0f1-43f8-bf70-4abb2cd25262",
+            "sourceColumn": "delitos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "mun_edo_pais",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "Place",
+            "dataType": "string",
+            "expression": "[Municipio]&\" \"&[Entidad]&\" \"&\"México\"",
+            "isDataTypeInferred": true,
+            "lineageTag": "d9070401-4271-4cb2-8ba0-626807f364cc",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "mes_num",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eb8a38bf-a316-4014-8544-dd1c0f72f2ce",
+            "sourceColumn": "mes_num",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Incidencia delictiva",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1e365f44-1600-48aa-a2a2-47f851be008d",
+            "sourceColumn": "Incidencia delictiva",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "73acc26f-e3f2-4c86-a8a5-1c3a6f38e9d5",
+        "partitions": [
+          {
+            "name": "Municipal-Delitos-2015-2021_dic2021-17c9ac37-7eac-44f2-bddd-205134ebfcce",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\LENOVO\\Documents\\dashboard powerbi\\Municipal-Delitos-2015-2021_dic2021.csv\"),[Delimiter=\",\", Columns=21, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Año\", Int64.Type}, {\"Clave_Ent\", Int64.Type}, {\"Entidad\", type text}, {\"Cve. Municipio\", Int64.Type}, {\"Municipio\", type text}, {\"Bien jurídico afectado\", type text}, {\"Tipo de delito\", type text}, {\"Subtipo de delito\", type text}, {\"Modalidad\", type text}, {\"Enero\", Int64.Type}, {\"Febrero\", Int64.Type}, {\"Marzo\", Int64.Type}, {\"Abril\", Int64.Type}, {\"Mayo\", Int64.Type}, {\"Junio\", Int64.Type}, {\"Julio\", Int64.Type}, {\"Agosto\", Int64.Type}, {\"Septiembre\", Int64.Type}, {\"Octubre\", Int64.Type}, {\"Noviembre\", Int64.Type}, {\"Diciembre\", Int64.Type}}),",
+                "    #\"Columna de anulación de dinamización\" = Table.UnpivotOtherColumns(#\"Tipo cambiado\", {\"Año\", \"Clave_Ent\", \"Entidad\", \"Cve. Municipio\", \"Municipio\", \"Bien jurídico afectado\", \"Tipo de delito\", \"Subtipo de delito\", \"Modalidad\"}, \"Atributo\", \"Valor\"),",
+                "    #\"Columnas reordenadas\" = Table.ReorderColumns(#\"Columna de anulación de dinamización\",{\"Clave_Ent\", \"Entidad\", \"Cve. Municipio\", \"Municipio\", \"Bien jurídico afectado\", \"Tipo de delito\", \"Subtipo de delito\", \"Modalidad\", \"Año\", \"Atributo\", \"Valor\"}),",
+                "    #\"Columnas con nombre cambiado\" = Table.RenameColumns(#\"Columnas reordenadas\",{{\"Atributo\", \"mes\"}, {\"Valor\", \"delitos\"}}),",
+                "    #\"Columna condicional agregada\" = Table.AddColumn(#\"Columnas con nombre cambiado\", \"Delitos #\", each if [delitos] <= 6000 then \"0 a 6mil\" else if [delitos] <= 12000 then \"6mil a 12mil\" else if [delitos] <= 18000 then \"12mil a 18mil\" else \"+ de 18mil\"),",
+                "    #\"Columna duplicada\" = Table.DuplicateColumn(#\"Columna condicional agregada\", \"mes\", \"mes - Copia\"),",
+                "    #\"Columnas con nombre cambiado1\" = Table.RenameColumns(#\"Columna duplicada\",{{\"mes - Copia\", \"mes_num\"}}),",
+                "    #\"Filas filtradas\" = Table.SelectRows(#\"Columnas con nombre cambiado1\", each true),",
+                "    #\"Tipo cambiado1\" = Table.TransformColumnTypes(#\"Filas filtradas\",{{\"mes_num\", type text}}),",
+                "    #\"Valor reemplazado\" = Table.ReplaceValue(#\"Tipo cambiado1\",\"enero\",\"1\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado1\" = Table.ReplaceValue(#\"Valor reemplazado\",\"Enero\",\"1\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado2\" = Table.ReplaceValue(#\"Valor reemplazado1\",\"Febrero\",\"2\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado3\" = Table.ReplaceValue(#\"Valor reemplazado2\",\"Marzo\",\"3\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado4\" = Table.ReplaceValue(#\"Valor reemplazado3\",\"Abril\",\"4\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado5\" = Table.ReplaceValue(#\"Valor reemplazado4\",\"Mayo\",\"5\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado6\" = Table.ReplaceValue(#\"Valor reemplazado5\",\"Junio\",\"6\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado7\" = Table.ReplaceValue(#\"Valor reemplazado6\",\"Julio\",\"7\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado8\" = Table.ReplaceValue(#\"Valor reemplazado7\",\"Agosto\",\"8\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado9\" = Table.ReplaceValue(#\"Valor reemplazado8\",\"Septiembre\",\"9\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado10\" = Table.ReplaceValue(#\"Valor reemplazado9\",\"Octubre\",\"10\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado11\" = Table.ReplaceValue(#\"Valor reemplazado10\",\"Noviembre\",\"11\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Valor reemplazado12\" = Table.ReplaceValue(#\"Valor reemplazado11\",\"Diciembre\",\"12\",Replacer.ReplaceText,{\"mes_num\"}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Valor reemplazado12\",{\"Delitos #\"}),",
+                "    #\"Columna condicional agregada1\" = Table.AddColumn(#\"Columnas quitadas\", \"Incidencia delictiva\", each if [delitos] <= 500 then \"1. Bajo (0-500)\" else if [delitos] <= 1000 then \"2. Medio (500-1000)\" else if [delitos] <= 1500 then \"3. Alto (1000-1500\" else \"4. Muy Alto (+1500)\")",
+                "in",
+                "    #\"Columna condicional agregada1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_ec2e3506-3312-4dfe-a4d4-7e16592c1ea2",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "e05642b9-c384-40cb-90e6-61451398a6a1",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "422b15d0-314a-4259-9c1a-dbe70afe813d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "985b8c28-b9c8-4a3a-a520-cc9d0aa1b4c8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "d1a42c96-50a7-41bf-a7d9-c9c8fc990d8a",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "b4b8d795-9553-4b8c-b792-4ce9ff873675",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "ca60e9b8-1745-4d8f-8be8-8673234674b3",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "d2aa322a-2174-43fd-9ffe-b2576c432883",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "ffa1f743-0977-42f6-8ba3-95a7b96b275b",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "1073b8c1-fbac-4b17-b59a-38920862fe80",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "72f184dc-f735-4c8f-b69a-928b4524c8d8",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "117bdd94-c154-490d-9add-45129bd90986",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "77636839-c911-400e-89d3-837919c9adfc"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "b5e4bb60-8114-4f2d-bc39-d0f569345841",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_ec2e3506-3312-4dfe-a4d4-7e16592c1ea2-ea92b769-7994-4a1c-abf9-64652e980975",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Concentrado municipal",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Clave de entidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d65668e1-edb0-4471-9c94-b487c8087a30",
+            "sourceColumn": "Clave de entidad",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Entidad federativa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "57987891-dd5b-4b95-9dd1-049855d65eb2",
+            "sourceColumn": "Entidad federativa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Clave de municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0d1495c2-bd11-46de-b810-7d22690c016e",
+            "sourceColumn": "Clave de municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "230b51eb-670e-47e9-a909-572a891fb8d2",
+            "sourceColumn": "Municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "POBLACIÓN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "75162b45-8d4b-405f-a53b-260691fcbe76",
+            "sourceColumn": "POBLACIÓN",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Población ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2d1abc76-3bca-42ba-9ee2-6fb6bac64d36",
+            "sourceColumn": "Población ",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Delitos x mil hab",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "[delitos dividido por Promedio de POBLACIÓN]",
+            "isDataTypeInferred": true,
+            "lineageTag": "96a0ad49-85f5-4615-b41a-f01bb3921557",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "98b6ea72-e1e4-4bd9-b4d1-d8ae55206bd9",
+        "measures": [
+          {
+            "name": "TASA DE DELITOS",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "\tSUM('Municipal-Delitos-2015-2021_dic2021'[delitos]),",
+              "\tSUM('Concentrado municipal'[POBLACIÓN])*1000000",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "MathematicalDivision",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "c1fe5734-b545-4027-8fcc-4d9e3574e25c"
+          },
+          {
+            "name": "delitos dividido por Promedio de POBLACIÓN",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "\tSUM('Municipal-Delitos-2015-2021_dic2021'[delitos]),",
+              "\tAVERAGE('Concentrado municipal'[POBLACIÓN])",
+              ")*1000"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "MathematicalDivision",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "58895112-dd71-4781-b82a-682b7d45260a"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Concentrado municipal-026dc5f1-ec9d-4d2a-8ef7-fc9ac2cc4d60",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Excel.Workbook(File.Contents(\"C:\\Users\\LENOVO\\Documents\\POBLACION2020.xlsx\"), null, true),",
+                "    #\"Concentrado municipal_Sheet\" = Origen{[Item=\"Concentrado municipal\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(#\"Concentrado municipal_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Column1\", type any}, {\"Clave de entidad\", Int64.Type}, {\"Entidad federativa\", type text}, {\"Clave de municipio\", Int64.Type}, {\"Municipio\", type text}, {\"POBLACIÓN\", Int64.Type}, {\"Column7\", type any}, {\"Column8\", type any}, {\"Column9\", type any}, {\"Column10\", type any}, {\"Column11\", type any}, {\"Column12\", type any}, {\"Column13\", type any}, {\"Column14\", type any}, {\"Column15\", type any}, {\"Column16\", type any}, {\"Column17\", type any}, {\"Column18\", type any}, {\"Column19\", type any}, {\"Column20\", type any}, {\"Column21\", type any}, {\"Column22\", type any}, {\"Column23\", type any}, {\"Column24\", type any}, {\"Column25\", type any}, {\"Column26\", type any}, {\"Column27\", type any}, {\"Column28\", type any}, {\"Column29\", type any}, {\"Column30\", type any}, {\"Column31\", type any}, {\"Column32\", type any}, {\"Column33\", type any}, {\"Column34\", type any}, {\"Column35\", type any}, {\"Column36\", type any}, {\"Column37\", type any}, {\"Column38\", type any}, {\"Column39\", type any}, {\"Column40\", type any}, {\"Column41\", type any}, {\"Column42\", type any}, {\"Column43\", type any}, {\"Column44\", type any}, {\"Column45\", type any}, {\"Column46\", type any}, {\"Column47\", type any}, {\"Column48\", type any}, {\"Column49\", type any}, {\"Column50\", type any}, {\"Column51\", type any}, {\"Column52\", type any}, {\"Column53\", type any}, {\"Column54\", type any}, {\"Column55\", type any}, {\"Column56\", type any}, {\"Column57\", type any}, {\"Column58\", type any}, {\"Column59\", type any}, {\"Column60\", type any}, {\"Column61\", type any}, {\"Column62\", type any}, {\"Column63\", type any}, {\"Column64\", type any}, {\"Column65\", type any}, {\"Column66\", type any}, {\"Column67\", type any}, {\"Column68\", type any}, {\"Column69\", type any}, {\"Column70\", type any}, {\"Column71\", type any}, {\"Column72\", type any}, {\"Column73\", type any}, {\"Column74\", type any}, {\"Column75\", type any}, {\"Column76\", type any}, {\"Column77\", type any}, {\"Column78\", type any}, {\"Column79\", type any}, {\"Column80\", type any}, {\"Column81\", type any}, {\"Column82\", type any}, {\"Column83\", type any}, {\"Column84\", type any}, {\"Column85\", type any}, {\"Column86\", type any}, {\"Column87\", type any}, {\"Column88\", type any}, {\"Column89\", type any}, {\"Column90\", type any}, {\"Column91\", type any}, {\"Column92\", type any}, {\"Column93\", type any}, {\"Column94\", type any}, {\"Column95\", type any}, {\"Column96\", type any}, {\"Column97\", type any}, {\"Column98\", type any}, {\"Column99\", type any}, {\"Column100\", type any}, {\"Column101\", type any}, {\"Column102\", type any}, {\"Column103\", type any}, {\"Column104\", type any}, {\"Column105\", type any}, {\"Column106\", type any}, {\"Column107\", type any}, {\"Column108\", type any}, {\"Column109\", type any}, {\"Column110\", type any}, {\"Column111\", type any}, {\"Column112\", type any}, {\"Column113\", type any}, {\"Column114\", type any}, {\"Column115\", type any}, {\"Column116\", type any}, {\"Column117\", type any}, {\"Column118\", type any}, {\"Column119\", type any}, {\"Column120\", type any}, {\"Column121\", type any}, {\"Column122\", type any}, {\"Column123\", type any}, {\"Column124\", type any}, {\"Column125\", type any}, {\"Column126\", type any}, {\"Column127\", type any}, {\"Column128\", type any}, {\"Column129\", type any}, {\"Column130\", type any}, {\"Column131\", type any}, {\"Column132\", type any}, {\"Column133\", type any}, {\"Column134\", type any}, {\"Column135\", type any}, {\"Column136\", type any}, {\"Column137\", type any}, {\"Column138\", type any}, {\"Column139\", type any}, {\"Column140\", type any}, {\"Column141\", type any}, {\"Column142\", type any}, {\"Column143\", type any}, {\"Column144\", type any}, {\"Column145\", type any}, {\"Column146\", type any}, {\"Column147\", type any}}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Tipo cambiado\",{\"Column1\", \"Column7\", \"Column8\", \"Column9\", \"Column10\", \"Column11\", \"Column12\", \"Column13\", \"Column14\", \"Column15\", \"Column16\", \"Column17\", \"Column18\", \"Column19\", \"Column20\", \"Column21\", \"Column22\", \"Column23\", \"Column24\", \"Column25\", \"Column26\", \"Column27\", \"Column28\", \"Column29\", \"Column30\", \"Column31\", \"Column32\", \"Column33\", \"Column34\", \"Column35\", \"Column36\", \"Column37\", \"Column38\", \"Column39\", \"Column40\", \"Column41\", \"Column42\", \"Column43\", \"Column44\", \"Column45\", \"Column46\", \"Column47\", \"Column48\", \"Column49\", \"Column50\", \"Column51\", \"Column52\", \"Column53\", \"Column54\", \"Column55\", \"Column56\", \"Column57\", \"Column58\", \"Column59\", \"Column60\", \"Column61\", \"Column62\", \"Column63\", \"Column64\", \"Column65\", \"Column66\", \"Column67\", \"Column68\", \"Column69\", \"Column70\", \"Column71\", \"Column72\", \"Column73\", \"Column74\", \"Column75\", \"Column76\", \"Column77\", \"Column78\", \"Column79\", \"Column80\", \"Column81\", \"Column82\", \"Column83\", \"Column84\", \"Column85\", \"Column86\", \"Column87\", \"Column88\", \"Column89\", \"Column90\", \"Column91\", \"Column92\", \"Column93\", \"Column94\", \"Column95\", \"Column96\", \"Column97\", \"Column98\", \"Column99\", \"Column100\", \"Column101\", \"Column102\", \"Column103\", \"Column104\", \"Column105\", \"Column106\", \"Column107\", \"Column108\", \"Column109\", \"Column110\", \"Column111\", \"Column112\", \"Column113\", \"Column114\", \"Column115\", \"Column116\", \"Column117\", \"Column118\", \"Column119\", \"Column120\", \"Column121\", \"Column122\", \"Column123\", \"Column124\", \"Column125\", \"Column126\", \"Column127\", \"Column128\", \"Column129\", \"Column130\", \"Column131\", \"Column132\", \"Column133\", \"Column134\", \"Column135\", \"Column136\", \"Column137\", \"Column138\", \"Column139\", \"Column140\", \"Column141\", \"Column142\", \"Column143\", \"Column144\", \"Column145\", \"Column146\", \"Column147\"}),",
+                "    #\"Columna condicional agregada\" = Table.AddColumn(#\"Columnas quitadas\", \"Población \", each if [POBLACIÓN] <= 3000 then \"0 a 3000\" else if [POBLACIÓN] <= 6000 then \"3000 a 6000\" else if [POBLACIÓN] <= 9000 then \"6000 a 9000\" else \"+ de 9000\")",
+                "in",
+                "    #\"Columna condicional agregada\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
